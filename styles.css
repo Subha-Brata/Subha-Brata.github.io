@@ -1,0 +1,90 @@
+body{
+
+    background: linear-gradient(90deg, rgba(245,253,176,1) 30%, rgba(188,255,185,1) 66%, rgba(40,255,191,1) 100%);
+    height: 1000px;
+    padding: 80px;
+    margin-top: 80px;
+    }
+.navbar.navbar-expand-lg{
+        font-size: 1.4rem;
+        
+        background: linear-gradient(90deg, rgba(245,253,176,1) 30%, rgba(188,255,185,1) 66%, rgba(40,255,191,1) 100%);
+        
+    }
+a{
+text-decoration: none;
+}
+.nav-link{
+    color: #393E46;
+    font-size: 1.4rem;
+    margin: 10px;
+}
+.nav-link:hover{
+    color: rgba(40,255,191,1);
+}
+.container{
+    margin-top:30px;
+    text-align: center;
+  
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+  .shadow{
+    background: linear-gradient(90deg, rgba(245,253,176,1) 30%, rgba(188,255,185,1) 66%, rgba(40,255,191,1) 100%);     
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border-radius: 2%;
+}
+.shadow:hover{
+    box-shadow: 0 24px 28px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#skills,#project,#aboutme,#contact,#thanku{
+    background-color: rgb(247,230,173,.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    width: 100%;
+}
+h1{
+    padding:50px;
+}
+.title{
+    font-family: 'Otomanopee One', sans-serif;
+    margin: auto;
+   /* font-size: 3.5rem;*/
+}
+
+  .nav-link-1{
+    color: #393E46;
+    font-size: 1.4rem;
+    margin: 10px;
+}
+.nav-link-1:hover{
+    color: rgb(245,253,176);
+}
+img{
+    border-radius: 2%;
+    max-width: 100%;
+    height: auto;
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    #skills,#project,#aboutme,#contact,#thanku {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    }
+  }
+
+  
